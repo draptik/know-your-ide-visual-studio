@@ -20,6 +20,7 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
 - [Ordnerstruktur aendern](#ordnerstruktur-aendern)
 - [NCrunch](#ncrunch)
 - [Productivity Tools](#productivity-tools)
+- [FiraCode](#firacode)
 - [EditorConfig](#editorconfig)
 - [Mal in das Option Menue reinschaun](#mal-in-das-option-menue-reinschaun)
 - [Web.config Transformationen](#webconfig-transformationen)
@@ -48,6 +49,7 @@ Mir tut das innerlich weh.
 - `Ctrl+K Ctrl+C`: markierten Text auskommentieren
 - `Ctrl+K Ctrl+U`: markierten Text auskommentieren
 - `Ctrl+K Ctrl+S`: "Surround": markierten Text mit zB try/catch "umrahmen"
+- `Alt+SelectWithMouse`: rectangle selection (aka column selection)
 
 ### Visual Studio: Code Snippets/Templates
 
@@ -142,20 +144,27 @@ Folgende Shortcuts finde ich pers. nuetzlich:
 
 Frage: Wer verwendet Unit Tests?
 
-NCrunch ist ein automatischer TestRunner fuer VS.
+NCrunch ist ein automatischer Test Runner fuer VS.
 
 Kurze Demo...
+
+NCrunch ist schneller als dotCover!
 
 ## Productivity Tools
 
 - Shrink empty lines
 - Solution error visualizer (erzeugt die Unterringelung im Solution Explorer)
 
+## FiraCode
+
+Find ich ganz nett... https://github.com/tonsky/FiraCode
+
 ## EditorConfig
 
 - vor VS2017: via plugin
 - ab VS2017: default
     - ueberschreibt `Tools` -> `Options` -> `Text Editor` -> `C#` -> `Code Style` -> `General`.
+- v.a. dann interessant, wenn im Team verschiedene Editoren/IDEs im Einsatz sind.
 
 ## Mal in das Option Menue reinschaun
 
