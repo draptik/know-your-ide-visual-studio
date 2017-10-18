@@ -51,7 +51,7 @@ Mir tut das innerlich weh.
 
 - `Alt+Arrow Up/Down`: Springt zur vorherigen/naechsten Methode
 - `Ctrl+K Ctrl+C`: markierten Text auskommentieren
-- `Ctrl+K Ctrl+U`: markierten Text auskommentieren
+- `Ctrl+K Ctrl+U`: markierten Text einkommentieren
 - `Ctrl+K Ctrl+S`: "Surround": markierten Text mit zB try/catch "umrahmen"
 - `Alt+SelectWithMouse`: rectangle selection (aka column selection)
 - `Ctrl+M Ctrl+O`: Alles zuklappen ("Collapse to definition")
