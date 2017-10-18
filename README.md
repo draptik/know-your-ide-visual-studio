@@ -26,6 +26,8 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
 - [FiraCode](#firacode)
 - [EditorConfig](#editorconfig)
 - [Mal in das Option Menue reinschaun](#mal-in-das-option-menue-reinschaun)
+- [Alternativen zu Visual Studio?](#alternativen-zu-visual-studio)
+- [Naechste Session](#naechste-session)
 
 <!-- /TOC -->
 
@@ -204,3 +206,15 @@ Find ich ganz nett... https://github.com/tonsky/FiraCode
 
 - was kann man konfigurieren?
 - wenn man beim Pair/Mob-Programming ein cooles Feature findet: Nachfragen!
+
+## Alternativen zu Visual Studio?
+
+- JetBrains Rider
+- VS Code
+
+## Naechste Session
+
+- Xamarin Studio?
+- Java Battle: Eclipse vs IntelliJ?
+
+oder: TDD-Kata zum Mittagessen?
