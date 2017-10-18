@@ -11,13 +11,7 @@ namespace Demo
         {
             _sut = new FizzBuzz();
         }
-
-        [Fact]
-        public void Adding_2_numbers_returns_correct_result()
-        {
-            _sut.Add(1, 1).Should().Be(2);
-        }
-
+        
         [Theory]
         [InlineData(1, "1")]
         [InlineData(2, "2")]

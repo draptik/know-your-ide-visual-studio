@@ -2,11 +2,6 @@
 {
     public class FizzBuzz
     {
-        public int Add(int number1, int number2)
-        {
-            return number1 + number2;
-        }
-
         public string Parse(int i)
         {
             //var unused = 1;
