@@ -156,7 +156,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kunde.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="KundeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
