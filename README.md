@@ -211,7 +211,9 @@ Find ich ganz nett... https://github.com/tonsky/FiraCode
 - Xamarin Studio?
 - Java Battle: Eclipse vs IntelliJ?
 
-oder: TDD-Kata zum Mittagessen?
+oder: 
+- regelmaessige TDD-Katas zum Mittagessen (1x/Woche oder 1/Monat)?
+- mehr zu xUnit und Mocking Frameworks?
 
 ## VS: Optionale Themen
 
