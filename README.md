@@ -23,7 +23,7 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
 - [NCrunch](#ncrunch)
 - [Productivity Tools](#productivity-tools)
 - [FiraCode](#firacode)
-- [EditorConfig](#editorconfig)
+- [EditorConfig: Style Conventions](#editorconfig-style-conventions)
 - [Mal in das Option Menue reinschaun](#mal-in-das-option-menue-reinschaun)
 - [Alternativen zu Visual Studio?](#alternativen-zu-visual-studio)
 - [Naechste Session?](#naechste-session)
@@ -188,13 +188,20 @@ Allg.: Wenn man keinen R# hat, findet man hier viele nuetzliche Features
 
 Find ich ganz nett... https://github.com/tonsky/FiraCode
 
-## EditorConfig
+## EditorConfig: Style Conventions
 
 - vor VS2017: via plugin
 - ab VS2017: default
     - ueberschreibt `Tools` -> `Options` -> `Text Editor` -> `C#` -> `Code Style` -> `General`.
 - v.a. dann interessant, wenn im Team verschiedene Editoren/IDEs im Einsatz sind. Wenn nur VS eingesetzt wird, finde ich die Konfiguration/Integration mit R# besser.
+- Ueberschneidungen mit
+    - VS Settings
+    - R# Settings
+    - git Einstellung (zB LineBreaks)
+    - SonarQube
+    - ...
 
+EditorConfig ist ein "kleinster gemeinsamer Nenner"
 
 ## Mal in das Option Menue reinschaun
 
