@@ -26,7 +26,7 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
 - [EditorConfig](#editorconfig)
 - [Mal in das Option Menue reinschaun](#mal-in-das-option-menue-reinschaun)
 - [Alternativen zu Visual Studio?](#alternativen-zu-visual-studio)
-- [Naechste Session](#naechste-session)
+- [Naechste Session?](#naechste-session)
 - [VS: Optionale Themen](#vs-optionale-themen)
     - [Ordnerstruktur aendern](#ordnerstruktur-aendern)
     - [Deployment/Build](#deploymentbuild)
@@ -206,14 +206,21 @@ Find ich ganz nett... https://github.com/tonsky/FiraCode
 - JetBrains Rider
 - VS Code
 
-## Naechste Session
+## Naechste Session?
 
-- Xamarin Studio?
-- Java Battle: Eclipse vs IntelliJ?
+Wollen wir sowas 1/Woche oder 1/Monat oefter machen?
 
-oder: 
-- regelmaessige TDD-Katas zum Mittagessen (1x/Woche oder 1/Monat)?
-- mehr zu xUnit und Mocking Frameworks?
+(soll keine Konkurrenzveranstaltung zum MH-Freitag sein)
+
+30-60min (waehrend der Mittagspause)
+
+Ideen:
+
+- TDD-Katas
+- mehr zu xUnit und Mocking Frameworks
+- Xamarin Studio
+- Java Battle: Eclipse vs IntelliJ
+- ...
 
 ## VS: Optionale Themen
 
