@@ -8,8 +8,11 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
     - [Visual Studio: Basic Keyboard Shortcuts](#visual-studio-basic-keyboard-shortcuts)
     - [Visual Studio: Code Snippets/Templates](#visual-studio-code-snippetstemplates)
     - [Resharper: Power Keyboard Shortcuts](#resharper-power-keyboard-shortcuts)
+        - [R# Plugin: Presentation Assistant](#r-plugin-presentation-assistant)
         - [Konstruktor anlegen](#konstruktor-anlegen)
-        - [Refactoring: `Ctrl+R ...`](#refactoring-ctrlr-)
+        - [Navigation](#navigation)
+        - [Aufraeumen und Coding Conventions](#aufraeumen-und-coding-conventions)
+        - [Refactoring: `Ctrl+R ...` (oder `Ctrl+Shift+R`)](#refactoring-ctrlr--oder-ctrlshiftr)
         - [Im Solution Explorer: Neue Klassen/Interfaces etc anlegen](#im-solution-explorer-neue-klasseninterfaces-etc-anlegen)
         - [Unit Testing: `Ctrl+U ...`](#unit-testing-ctrlu-)
         - [Eigene Templates anlegen](#eigene-templates-anlegen)
@@ -23,9 +26,6 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
 - [FiraCode](#firacode)
 - [EditorConfig](#editorconfig)
 - [Mal in das Option Menue reinschaun](#mal-in-das-option-menue-reinschaun)
-- [Web.config Transformationen](#webconfig-transformationen)
-- [App.config Transformationen](#appconfig-transformationen)
-- [MSBuild (`sln` File)](#msbuild-sln-file)
 
 <!-- /TOC -->
 
@@ -50,6 +50,8 @@ Mir tut das innerlich weh.
 - `Ctrl+K Ctrl+U`: markierten Text auskommentieren
 - `Ctrl+K Ctrl+S`: "Surround": markierten Text mit zB try/catch "umrahmen"
 - `Alt+SelectWithMouse`: rectangle selection (aka column selection)
+- `Ctrl+M Ctrl+O`: Alles zuklappen ("Collapse to definition")
+- `Ctrl+M Ctrl+M`: Toggle Outlining Expansion
 
 ### Visual Studio: Code Snippets/Templates
 
@@ -66,18 +68,40 @@ Der wichtigste Keyboard Shortcut ueberhaupt bei R#:
 
 - `Alt+Enter`: Kontextabhaengige Verbesserungen
 
+#### R# Plugin: Presentation Assistant
+
+Nicht nur nuetzlich fuer eine Demo, bei der es um Keyboard Shortcuts geht ;-) Hiermit erfaehrt man auch, wie das Kommando hinter dem Shortcut eigentlich heisst.
+
 #### Konstruktor anlegen
 
 - `Alt+Insert`: Ctor erstellen
 
-#### Refactoring: `Ctrl+R ...`
+#### Navigation
+
+- `Ctrl+T`: Goto everything
+- `Alt+ArrowDown/ArrowUp`: Next member/previous member
+- `Ctrl+[`: Containing declaration
+- `Ctrl+,`: Recent files
+- `Ctrl+Shift+,`: Recent edits
+
+#### Aufraeumen und Coding Conventions
+
+- `Ctrl+E Ctrl+C`: Code aufrauemen
+
+Regeln sind zu finden unter:
+
+`Resharper` -> `Options` -> `Code Editing` ...
+
+Mehr dazu spaeter (EditorConfig)...
+
+#### Refactoring: `Ctrl+R ...` (oder `Ctrl+Shift+R`)
 
 - `Ctrl+R Ctrl+R`: **R**ename
 - `Ctrl+R Ctrl+M`: Extract **M**ethod
 - `Ctrl+R Ctrl+V`: Extract **V**ariable
 - `Ctrl+R Ctrl+I`: **I**nline variable
 - `Ctrl+R Ctrl+O`: Move
-- `Ctrl+Shift+R`: Oeffnet Submenue "Refactor This":
+- `Ctrl+Shift+R`: Oeffnet Submenue **Refactor This**:
     - Pull member up
     - Extract class
     - Extract interface
@@ -124,12 +148,17 @@ Folgende Shortcuts finde ich pers. nuetzlich:
 
 - `Ctrl+W`: Expand selection (`Resharper.Resharper_ExtendSelection`)
 
+Bevor man eigene Keyboard Shortcuts anlegt, sollte man seine Einstellungen exportieren, damit man wieder zurueckrudern kann:
+
+`Tools` -> `Import and Export Settings` -> `Export selected environment settings` -> `Next`.
+
+Alles in der Baumansicht deaktivieren, dann nur bei `Options` -> `Environment` -> `Keyboard` Haeckchen setzen. Danach wieder auf `Next` und Datei speichern.
 
 ## Git
 
 - Ich finde die Standardintegration in VS eher "mau". Ich nutze lediglich die Icons im Solution Explorer als schnellen Indicator fuer mich, ob sich an einer Datei/einem Ordner was geaendert hat.
 - VS2015: GitExtensions
-- VS2017: GitExtensions funktionieren noch nicht. Hier verwende ich einen Mix aus GitExtensions/TortoiseGit/Kommandozeile.
+- VS2017: GitExtensions funktionieren noch nicht. Hier verwende ich einen Mix aus GitExtensions/TortoiseGit im Windows File Explorer und Kommandozeile.
 
 ## Ordnerstruktur aendern
 
@@ -154,6 +183,11 @@ NCrunch ist schneller als dotCover!
 
 - Shrink empty lines
 - Solution error visualizer (erzeugt die Unterringelung im Solution Explorer)
+- "Squiggles" im Solution Explorer (Konfigurieren unter `Tools` -> `Productivity Power Tools`)
+
+<img src="./images/power-tools-sqiggles.jpg" alt="squiggles in solution explorer" style="width: 90%;"/>
+
+Allg.: Wenn man keinen R# hat, findet man hier viele nuetzliche Features
 
 ## FiraCode
 
@@ -164,20 +198,9 @@ Find ich ganz nett... https://github.com/tonsky/FiraCode
 - vor VS2017: via plugin
 - ab VS2017: default
     - ueberschreibt `Tools` -> `Options` -> `Text Editor` -> `C#` -> `Code Style` -> `General`.
-- v.a. dann interessant, wenn im Team verschiedene Editoren/IDEs im Einsatz sind.
+- v.a. dann interessant, wenn im Team verschiedene Editoren/IDEs im Einsatz sind. Wenn nur VS eingesetzt wird, finde ich die Konfiguration/Integration mit R# besser.
 
 ## Mal in das Option Menue reinschaun
 
 - was kann man konfigurieren?
-
-## Web.config Transformationen
-
-- TODO
-
-## App.config Transformationen
-
-- TODO
-
-## MSBuild (`sln` File)
-
-- TODO
+- wenn man beim Pair/Mob-Programming ein cooles Feature findet: Nachfragen!
