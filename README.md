@@ -20,7 +20,6 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
         - [Auswahl duplizieren](#auswahl-duplizieren)
     - [Eigene Keyboard Shortcuts anlegen](#eigene-keyboard-shortcuts-anlegen)
 - [Git](#git)
-- [Ordnerstruktur aendern](#ordnerstruktur-aendern)
 - [NCrunch](#ncrunch)
 - [Productivity Tools](#productivity-tools)
 - [FiraCode](#firacode)
@@ -28,6 +27,9 @@ Warum? Man verbringt 8h am Tag in der IDE! Es lohnt sich, ein paar Kniffe drauf 
 - [Mal in das Option Menue reinschaun](#mal-in-das-option-menue-reinschaun)
 - [Alternativen zu Visual Studio?](#alternativen-zu-visual-studio)
 - [Naechste Session](#naechste-session)
+- [VS: Optionale Themen](#vs-optionale-themen)
+    - [Ordnerstruktur aendern](#ordnerstruktur-aendern)
+    - [Deployment/Build](#deploymentbuild)
 
 <!-- /TOC -->
 
@@ -162,15 +164,6 @@ Alles in der Baumansicht deaktivieren, dann nur bei `Options` -> `Environment` -
 - VS2015: GitExtensions
 - VS2017: GitExtensions funktionieren noch nicht. Hier verwende ich einen Mix aus GitExtensions/TortoiseGit im Windows File Explorer und Kommandozeile.
 
-## Ordnerstruktur aendern
-
-- Aufbau von `csproj` Dateien
-- Funktion von `AssemblyInfo.cs`
-- Solution folder
-- Anpassen von `sln` Datei
-- R# verwenden, wo moeglich!
-- Verbesserungsvorschlaege?
-
 ## NCrunch
 
 Frage: Wer verwendet Unit Tests?
@@ -202,6 +195,7 @@ Find ich ganz nett... https://github.com/tonsky/FiraCode
     - ueberschreibt `Tools` -> `Options` -> `Text Editor` -> `C#` -> `Code Style` -> `General`.
 - v.a. dann interessant, wenn im Team verschiedene Editoren/IDEs im Einsatz sind. Wenn nur VS eingesetzt wird, finde ich die Konfiguration/Integration mit R# besser.
 
+
 ## Mal in das Option Menue reinschaun
 
 - was kann man konfigurieren?
@@ -218,3 +212,20 @@ Find ich ganz nett... https://github.com/tonsky/FiraCode
 - Java Battle: Eclipse vs IntelliJ?
 
 oder: TDD-Kata zum Mittagessen?
+
+## VS: Optionale Themen
+
+### Ordnerstruktur aendern
+
+- Aufbau von `csproj` Dateien
+- Funktion von `AssemblyInfo.cs`
+- Solution folder
+- Anpassen von `sln` Datei
+- R# verwenden, wo moeglich!
+- Verbesserungsvorschlaege?
+
+### Deployment/Build
+
+- Web.Config Transformation
+- App.Config Transformation
+- MSBuild (oder mal was Neues: CAKE/FAKE)
