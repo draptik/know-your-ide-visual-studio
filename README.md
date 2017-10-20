@@ -53,7 +53,7 @@ Mir tut das innerlich weh.
 - `Ctrl+K Ctrl+C`: markierten Text auskommentieren
 - `Ctrl+K Ctrl+U`: markierten Text einkommentieren
 - `Ctrl+K Ctrl+S`: "Surround": markierten Text mit zB try/catch "umrahmen"
-- `Alt+SelectWithMouse`: rectangle selection (aka column selection)
+- `Alt+SelectWithMouse` oder `Alt+Shift+Arrow`: rectangle selection (aka column selection)
 - `Ctrl+M Ctrl+O`: Alles zuklappen ("Collapse to definition")
 - `Ctrl+M Ctrl+M`: Toggle Outlining Expansion
 
